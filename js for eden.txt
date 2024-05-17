@@ -1,0 +1,4 @@
+<script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.12" crossorigin="anonymous"></script>
+<script>
+var aiBot = new AiBot({embedId: '9z3BkF2UKtme', remoteBaseUrl: 'https://humanchat.net/', version: '1.5.12'});
+</script>
