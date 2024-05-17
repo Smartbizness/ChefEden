@@ -1,4 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chatbot Button</title>
+<style>
+    .chatbot-container {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 1000; /* Make sure the button stays on top */
+    }
+</style>
+</head>
+<body>
+<div class="chatbot-container">
+    <div id="chatbot-button"></div> <!-- Button placeholder -->
+</div>
+
 <script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.12" crossorigin="anonymous"></script>
 <script>
-var aiBot = new AiBot({embedId: '9z3BkF2UKtme', remoteBaseUrl: 'https://humanchat.net/', version: '1.5.12'});
+var aiBot = new AiBot({
+    embedId: '9z3BkF2UKtme',
+    remoteBaseUrl: 'https://humanchat.net/',
+    version: '1.5.12'
+});
 </script>
+</body>
+</html>
